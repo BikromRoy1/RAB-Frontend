@@ -29,4 +29,5 @@
   <link rel="stylesheet" href="assets/css/achievement.css">
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/Award.css" rel="stylesheet" />
 </head>

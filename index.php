@@ -93,6 +93,16 @@ include '_header.php';
 
 
         <div class="row">
+          <div class="col-lg-3">
+            <div class="message-dmt">
+              <img src="assets/img/Mission/Dg Sir.jpg" class="img-fluid" loading="lazy" alt="পিপিএম">
+              <h4>জনাব এম খুরশীদ হোসেন, বিপিএম(বার), পিপিএম</h4>
+              <p>
+                মহাপরিচালক, র‌্যাব ফোর্সেস
+              </p>
+              <a href="#"> বিস্তারিত পড়ুন <i class="bi bi-arrow-right"></i> </a>
+            </div>
+          </div>
           <div class="col-lg-9">
             <div class="about-message">
               <p>
@@ -116,16 +126,7 @@ include '_header.php';
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="message-dmt">
-              <img src="assets/img/Mission/Dg Sir.jpg" class="img-fluid" loading="lazy" alt="পিপিএম">
-              <h4>জনাব এম খুরশীদ হোসেন, বিপিএম(বার), পিপিএম</h4>
-              <p>
-                মহাপরিচালক, র‌্যাব ফোর্সেস
-              </p>
-              <a href="#"> বিস্তারিত পড়ুন <i class="bi bi-arrow-right"></i> </a>
-            </div>
-          </div>
+          
         </div>
 
 
@@ -555,9 +556,9 @@ include '_header.php';
             <div class="col-12">
               <div class="section-title">
                 <h2>
-                  <span>helpline number</span>
+                  <span>হেল্পলাইন নম্বর</span>
                 </h2>
-                <p>Emergency Services</p>
+                <p>জরুরী সেবা</p>
                 <div class="title-shape"></div>
               </div>
             </div>

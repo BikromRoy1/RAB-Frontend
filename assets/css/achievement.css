@@ -77,8 +77,37 @@
 .achievement-card-single .card-body{
     height: 200px;
 }
-.achievement-card-single .card-body p{
+.achievement-card .card-body .card-text{
     font-size: 16px;
     text-align: justify;
     color: black !important;
+}
+.achievement-card .card-footer{
+    background-color: white !important;
+    border-top: 0px !important;
+}
+#achievement-vertical .achievement-card img{
+    height: 250px;
+}
+
+.achievement .nav-pills li + li {
+    margin-left: 8px;
+}
+.achievement .nav-link {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #555555;
+    transition: all 0.3s ease-in-out;
+    margin: 0 4px 10px 4px;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+.achievement .nav-link.active {
+    background: var(--primary-color);
+    color: #fff;
 }

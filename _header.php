@@ -90,8 +90,13 @@
             </a>
             <ul>
               <li><a href="achievement.php">অর্জন</a></li>
-              <li>
-                <a href="#">সম্মাননা </a>
+              <li class="dropdown">
+                <a href="Award.php"><span>সম্মাননা</span>
+                  <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">ডিজি  পদক</a></li>
+                  <li><a href="#">পুলিশ পদক</a></li>
+                </ul>
               </li>
             </ul>
           </li>
