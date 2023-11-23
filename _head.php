@@ -26,6 +26,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
   <!-- page css -->
   <link rel="stylesheet" href="assets/css/news.css">
+  <link rel="stylesheet" href="assets/css/achievement.css">
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
 </head>
