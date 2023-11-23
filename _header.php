@@ -38,7 +38,7 @@
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg> </span></a>
             <ul>
-              <li><a href="#">আমাদের সম্পর্কে </a></li>
+              <li><a href="about_us.php">আমাদের সম্পর্কে </a></li>
               <li><a href="#">বাণী </a></li>
               <li class="dropdown">
                 <a href="#"><span>র‌্যাব সদর দপ্তর </span>
