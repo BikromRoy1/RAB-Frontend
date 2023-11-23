@@ -9,15 +9,31 @@ include '_header.php'
 ?>
 
 <main>
+  <!-- page banner start -->
+    <section id="page-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner-text">
+                        <h1>সম্মাননা</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- page banner end -->
   <section id='award' class='award'>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
          <!-- Tabs -->
             <ul class="nav nav-pills mb-5  justify-content-center">
-              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">পুলিশ পদক ২০২২ </a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">পুলিশ পদক ২০২১</a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">পুলিশ পদক ২০২০</a></li>
+              <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">পুলিশ পদক (২০২২) </a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">পুলিশ পদক (২০২১) </a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">পুলিশ পদক (২০২০)</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab4">পুলিশ পদক (২০২০)</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab5">পুলিশ পদক (২০২০)</a></li>
+              <li><a class="nav-link" data-bs-toggle="pill" href="#tab6">পুলিশ পদক (২০২০)</a></li>
             </ul><!-- End Tabs -->
 
                           <!-- Tab Content -->
@@ -89,6 +105,16 @@ include '_header.php'
                   </p>
                 </div>
                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row mt-5">
+            <div class="col-12">
+              <div class="section-title">
+                <p>পিপিএম</p>
+                <div class="title-shape"></div>
               </div>
             </div>
           </div>
