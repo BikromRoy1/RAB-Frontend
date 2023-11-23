@@ -548,7 +548,7 @@ include '_header.php';
 
     
 
-    <!-- ======= Emergency services Section ======= -->
+    <!-- ======= র‌্যাব ব্যাটালিয়ন সমূহ Section ======= -->
     <section id="Emergency-service" class="Emergency-service">
       <div class="container" data-aos="fade-up">
         <div class="position-relative">
@@ -558,7 +558,7 @@ include '_header.php';
                 <h2>
                   <span>হেল্পলাইন নম্বর</span>
                 </h2>
-                <p>জরুরী সেবা</p>
+                <p class='text-white'>জরুরী সেবা</p>
                 <div class="title-shape"></div>
               </div>
             </div>
@@ -658,6 +658,63 @@ include '_header.php';
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- End র‌্যাব ব্যাটালিয়ন সমূহ Section -->
+
+
+
+
+    <!-- ======= Emergency services Section ======= -->
+    <section id='battalions' class='battalions'>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+              <div class="section-title">
+                <h2>
+                  <span>র‌্যাব ব্যাটালিয়ন সমূহের তথ্য</span>
+                </h2>
+                <p class=''>র‌্যাব ব্যাটালিয়ন সমূহ</p>
+                <div class="title-shape"></div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="battalions-button">
+                <ul>
+                  <li><a href="#">র‌্যাব - ১</a></li>
+                  <li><a href="#">র‌্যাব - ২</a></li>
+                  <li><a href="#">র‌্যাব - ৩</a></li>
+                  <li><a href="#">র‌্যাব - ৪</a></li>
+                  <li><a href="#">র‌্যাব - ৫</a></li>
+                  <li><a href="#">র‌্যাব - ৬</a></li>
+                  <li><a href="#">র‌্যাব - ৭</a></li>
+                  <li><a href="#">র‌্যাব - ৮</a></li>
+                  <li><a href="#">র‌্যাব - ৯</a></li>
+                  <li><a href="#">র‌্যাব - ১০</a></li>
+                  <li><a href="#">র‌্যাব - ১১</a></li>
+                  <li><a href="#">র‌্যাব - ১২</a></li>
+                  <li><a href="#">র‌্যাব - ১৩</a></li>
+                  <li><a href="#">র‌্যাব - ১৪</a></li>
+                  <li><a href="#">র‌্যাব - ১৫</a></li>
+                  
+
+             
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="battalions-map">
+                <img src="assets/img/bd-map.png" class='img-fluid' loading="lazy" alt="battalions">
+              </div>
+            </div>
+          </div>
+
+
       </div>
     </section>
     <!-- End Emergency services Section -->
