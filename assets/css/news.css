@@ -1,0 +1,41 @@
+#page-banner {
+    background: url('../img/bg-2.jpg')no-repeat fixed bottom center / cover;
+    position: relative;
+    z-index: 1;
+}
+
+#page-banner::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #0818287a;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.banner-text {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.banner-text h1 {
+    color: white;
+}
+
+.news-wrapper {  
+    background: #f1f5f9;
+}
+
+.news-title img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.news-title {
+    height: 250px;
+    overflow: hidden;
+}
