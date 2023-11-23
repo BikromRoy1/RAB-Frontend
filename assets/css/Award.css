@@ -1,0 +1,62 @@
+.award .nav-pills {
+  border-bottom: 1px solid rgba(var(--primary-color-rgb), 0.2);
+}
+.award .nav-pills li + li {
+  margin-left: 15px;
+}
+.award .nav-link {
+  background: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-primary-color);
+  padding: 12px 0;
+  margin-bottom: -2px;
+  border-radius: 0;
+}
+.award .nav-link.active {
+  color: var(--primary-color);
+  background: none;
+  border-bottom: 3px solid var(--primary-color);
+}
+.award .award-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding-bottom: 21px;
+  padding-top: 21px;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.award .award-card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 9999px;
+}
+.award .award-card .award-card-content {
+  margin-top: 0.75rem;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.award .award-card .award-card-content h4 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+.award .award-card .award-card-content h5 {
+  font-size: 17px;
+  font-weight: 600;
+  /* color: #e66f3c; */
+  color: var(--primary-color);
+}
+.award .award-card .award-card-content p {
+  margin-bottom: 0px;
+  color: var(--text-secondary-color);
+  font-size: 15px;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
