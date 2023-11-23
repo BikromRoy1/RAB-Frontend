@@ -1,0 +1,113 @@
+/**
+* Website Name: র‌্যাপিড অ্যাকশন ব্যাটালিয়ন (র‌্যাব)
+  * Updated: october 19 2023 with Bootstrap v5.3.2 least
+  * Template URL: https://www.rab.gov.bd/
+  * Author: র‌্যাপিড অ্যাকশন ব্যাটালিয়ন (র‌্যাব)
+  * License: https://www.rab.gov.bd/
+  * contact us: 151/7, Good Luck Center (7th & 8th) Floor, Green Road, Dhaka - 1205,  Bangladesh
+*/
+
+/*--------------------------------------------------------------
+# Font & Color Variables
+# Help: https://fonts.google.com/
+#color: using Logo colors
+--------------------------------------------------------------*/
+/* Fonts */
+
+:root {
+    --default-font: 'Noto Sans Bengali', sans-serif;
+    --heading-font: 'Noto Sans Bengali', sans-serif;
+    --nav-font: 'Noto Sans Bengali', sans-serif;
+    --Bangla-font: 'Noto Sans Bengali', sans-serif;
+}
+
+/* Global Colors */
+:root {
+    --background-color: #ffffff;
+    --background-color-rgb: 255, 255, 255;
+    --default-color: #212529;
+    --default-color-rgb: 33, 37, 41;
+    --primary-color: #1cab55;
+    --primary-color-rgb: 28, 171, 85;
+    --secondary-color: #efe509;
+    --secondary-color-rgb: 239, 229, 9;
+    --contrast-color: #ffffff;
+    --contrast-color-rgb: 255, 255, 255;
+    --text-primary-color: #111827;
+    --text-secondary-color: #4b5563;
+    --section-Background-color: #f4f7fd;
+    --main-button-hover-color: #198b46;
+}
+
+/* Nav Menu Colors */
+:root {
+    --nav-color: #3a3939;
+    --nav-hover-color: #e84545;
+    --nav-dropdown-color: #3a3939;
+    --nav-dropdown-hover-color: #e84545;
+    --nav-dropdown-background-color: #ffffff;
+    --nav-mobile-background-color: #ffffff;
+    --Top-Navbar-background-color: #212832;
+    /* --hero-background-color: #37517e; */
+    --hero-background-color: #dcebfe;
+}
+
+/* Smooth scroll */
+:root {
+    scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Achievement Card
+--------------------------------------------------------------*/
+
+.achievement-card-single img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.achievement-card-single .card-body{
+    height: 200px;
+}
+.achievement-card .card-body .card-text{
+    font-size: 16px;
+    text-align: justify;
+    color: black !important;
+}
+.achievement-card .card-footer{
+    background-color: white !important;
+    border-top: 0px !important;
+}
+#achievement-vertical .achievement-card img{
+    height: 250px;
+}
+
+.achievement .nav-pills li + li {
+    margin-left: 8px;
+}
+.achievement .nav-link {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #555555;
+    transition: all 0.3s ease-in-out;
+    margin: 0 4px 10px 4px;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+.achievement .nav-link.active {
+    background: var(--primary-color);
+    color: #fff;
+}
