@@ -1534,7 +1534,7 @@ section {
 --------------------------------------------------------------*/
 #Emergency-service {
   position: relative;
-  background-image: url('../img/service-bg.jpg');
+  background-image: url('https://i.ibb.co/88g6VMZ/RAB-falls-victim-of-fresh-propaganda-by-agents-of-militancy.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1543,7 +1543,8 @@ section {
 }
 
 #Emergency-service::before {
-  background-color: #f5f5f6;
+  /* background-color: #f5f5f6; */
+  background-color: #081828;
   content: '';
   position: absolute;
   bottom: 0;
@@ -2305,6 +2306,7 @@ section {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid #e5e7eb;
 }
 
 #message-ppm .message-dmt h4 {
@@ -2318,5 +2320,5 @@ section {
 
 #message-ppm .message-dmt p {
   color: var(--text-secondary-color);
-  margin-bottom: 0px;
+  margin-bottom: 2px;
 }

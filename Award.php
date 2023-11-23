@@ -114,14 +114,14 @@ include '_header.php'
                             </div>
 
 
-                            <div class="row mt-5">
-                                <div class="col-12">
-                                    <div class="section-title">
-                                        <p>পিপিএম</p>
-                                        <div class="title-shape"></div>
-                                    </div>
-                                </div>
-                            </div>
+          <div class="row mt-5">
+            <div class="col-12">
+              <div class="section-title">
+                <p>পিপিএম</p>
+                <div class="title-shape"></div>
+              </div>
+            </div>
+          </div>
 
 
                         </div><!-- End Tab 1 Content -->
