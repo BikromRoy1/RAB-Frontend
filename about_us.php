@@ -50,7 +50,6 @@ include '_header.php';
                         <p>
                             মহাপরিচালক, র‌্যাব ফোর্সেস
                         </p>
-                        <a href="#"> বিস্তারিত পড়ুন <i class="bi bi-arrow-right"></i> </a>
                     </div>
                 </div>
                 <div class="col-lg-9">
@@ -81,9 +80,7 @@ include '_header.php';
                             অপারেশনাল
                             কার্যক্রম শুরু করে।
                         </p>
-                        <div class="about-btn">
-                            <a href="#"> আরো পড়ুন <i class="bi bi-arrow-right"></i> </a>
-                        </div>
+                       
                     </div>
                 </div>
 
@@ -462,82 +459,6 @@ include '_header.php';
         </div>
     </section>
     <!-- End Police Activities Section -->
-
-    <!-- =======  Battalions  Section ======= -->
-    <section id="battalions" class="battalions">
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <p class="">র‌্যাব ব্যাটালিয়ন সমূহ</p>
-                        <div class="title-shape"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <ul>
-                    <li class="" data-aos="zoom-in" data-aos-delay="100"><a class="" href=""> র&zwnj;্যাব - ১</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="100"><a class="" href=""> র&zwnj;্যাব - ২</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="100"><a class="" href=""> র&zwnj;্যাব - ৩</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="100"><a class="" href=""> র&zwnj;্যাব - ৪</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="100"><a class="" href=""> র&zwnj;্যাব - ৫</a></li>
-
-                </ul>
-                <ul>
-                    <li class="" data-aos="zoom-in" data-aos-delay="200"><a class="" href=""> র&zwnj;্যাব - ৬</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="200"><a class="" href=""> র&zwnj;্যাব - ৭</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="200"><a class="" href=""> র&zwnj;্যাব - ৮</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="200"><a class="" href=""> র&zwnj;্যাব - ৯</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="200"><a class="" href=""> র&zwnj;্যাব - ১০</a></li>
-                </ul>
-                <ul>
-
-                    <li class="" data-aos="zoom-in" data-aos-delay="300"><a class="" href=""> র&zwnj;্যাব - ১১</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="300"><a class="" href=""> র&zwnj;্যাব - ১২</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="300"><a class="" href=""> র&zwnj;্যাব - ১৩</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="300"><a class="" href=""> র&zwnj;্যাব - ১৪</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="300"><a class="" href=""> র&zwnj;্যাব - ১৫</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- End Battalions  Section -->
-
-    <!-- =======  Wings  Section ======= -->
-    <section id="battalions" class="battalions">
-        <div class="container" data-aos="fade-up">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <p class="">র‌্যাব উইংসমূহ</p>
-                        <div class="title-shape"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <ul>
-                    <li class="" data-aos="zoom-in" data-aos-delay="100"><a class="" href=""> অপারেশনস্ উইং</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="100"><a class="" href=""> ইন্টেলিজেন্স উইং</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="100"><a class="" href=""> এ্যাডমিন অ্যান্ড
-                            ফাইন্যান্স উইং</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="200"><a class="" href=""> লিগ্যাল অ্যান্ড মিডিয়া
-                            উইং</a></li>
-                </ul>
-                <ul>
-
-                    <li class="" data-aos="zoom-in" data-aos-delay="200"><a class="" href=""> কমিউনিকেশন অ্যান্ড এমআইএস
-                            উইং</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="200"><a class="" href=""> ইনভেস্টিগেশন অ্যান্ড
-                            ফরেনসিক উইং</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="300"><a class="" href=""> ট্রেনিং অ্যান্ড
-                            ওরিয়েন্টেশন উইং</a></li>
-                    <li class="" data-aos="zoom-in" data-aos-delay="300"><a class="" href=""> এয়ার উইং</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- End Wings  Section -->
 
 
 </main>

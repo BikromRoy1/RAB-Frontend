@@ -685,26 +685,85 @@ include '_header.php';
           <div class="row">
             <div class="col-lg-8">
               <div class="battalions-button">
-                <ul>
-                  <li><a href="#">র‌্যাব - ১</a></li>
-                  <li><a href="#">র‌্যাব - ২</a></li>
-                  <li><a href="#">র‌্যাব - ৩</a></li>
-                  <li><a href="#">র‌্যাব - ৪</a></li>
-                  <li><a href="#">র‌্যাব - ৫</a></li>
-                  <li><a href="#">র‌্যাব - ৬</a></li>
-                  <li><a href="#">র‌্যাব - ৭</a></li>
-                  <li><a href="#">র‌্যাব - ৮</a></li>
-                  <li><a href="#">র‌্যাব - ৯</a></li>
-                  <li><a href="#">র‌্যাব - ১০</a></li>
-                  <li><a href="#">র‌্যাব - ১১</a></li>
-                  <li><a href="#">র‌্যাব - ১২</a></li>
-                  <li><a href="#">র‌্যাব - ১৩</a></li>
-                  <li><a href="#">র‌্যাব - ১৪</a></li>
-                  <li><a href="#">র‌্যাব - ১৫</a></li>
-                  
-
-             
-                </ul>
+               <div class="row">
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ২</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৩</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৪</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৫</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৬</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৭</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৮</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৯</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১০</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১১</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১২</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১৩</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১৪</a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১৫</a>
+                  </div>
+                </div>
+              
+               
+               </div>
               </div>
             </div>
             <div class="col-lg-4">

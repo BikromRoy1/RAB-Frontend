@@ -113,7 +113,7 @@
               </span>
             </a>
             <ul>
-              <li><a href="#">ফটো গ্যালারি </a></li>
+              <li><a href="Photogallery.php">ফটো গ্যালারি </a></li>
               <li><a href="#">ভিডিও গ্যালারি</a></li>
             </ul>
           </li>
