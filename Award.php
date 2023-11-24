@@ -123,6 +123,70 @@ include '_header.php'
             </div>
           </div>
 
+          <div class="row justify-content-center">
+                                <div class="col-lg-3">
+                                    <div class="award-card">
+                                        <div>
+                                            <img src="assets/img/team/Lt Col Mostaq.jpeg" loading='lazy' alt=""
+                                                 class='img-fluid'>
+                                            <div class='award-card-content'>
+                                                <h4>লেঃ কর্ণেল মুহাম্মদ মোসতাক আহমদ, পিপিএম, বিএসপি, পিএসসি</h4>
+                                                <h5>অধিনায়ক</h5>
+                                                <p>
+                                                    র‌্যাব-৬
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="award-card">
+                                        <div>
+                                            <img src="assets/img/team/Lt Col Tanvir Mahmud Pasha psc.jpg" loading='lazy' alt=""
+                                                 class='img-fluid'>
+                                            <div class='award-card-content'>
+                                                <h4>লেঃ কর্ণেল তানভীর মাহমুদ পাশা, পিপিএম, পিএসসি</h4>
+                                                <h5>অধিনায়ক</h5>
+                                                <p>
+                                                   র‌্যাব-১১
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="award-card">
+                                        <div>
+                                            <img src="assets/img/team/Maj Shorav Md Osim Satil.jpg" loading='lazy' alt=""
+                                                 class='img-fluid'>
+                                            <div class='award-card-content'>
+                                                <h4>মেজর সৌরভ মোঃ অসীম শাতিল, পিপিএম</h4>
+                                                <h5>ইন্ট উইং</h5>
+                                                <!-- <p>
+                                                    ইন্ট উইং
+                                                </p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="award-card">
+                                        <div>
+                                            <img src="assets/img/team/Sqn Ldr Ashraf BPM.jpg" loading='lazy' alt=""
+                                                 class='img-fluid'>
+                                            <div class='award-card-content'>
+                                                <h4>স্কোয়াড্রন লীডার আলী আশরাফ তুষার, পিপিএম, জিডি (পি)</h4>
+                                                <h5>ইন্ট উইং</h5>
+                                                <!-- <p>
+                                                    র‌্যাব-৭
+                                                </p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
 
                         </div><!-- End Tab 1 Content -->
 
