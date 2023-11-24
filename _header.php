@@ -131,14 +131,14 @@
             </ul>
           </li>
           <li>
-            <a class="nav-link scrollto" href="#services"> এনওসি</a>
+            <a class="nav-link scrollto" href="NOC.php"> এনওসি</a>
           </li>
 
           <li>
             <a class="nav-link scrollto" href="#services"> রিপোর্ট ক্রাইম </a>
           </li>
           <li>
-            <a class="nav-link scrollto" href="#services"> প্রকাশনা </a>
+            <a class="nav-link scrollto" href="publication.php"> প্রকাশনা </a>
           </li>
 
           <li class="dropdown">

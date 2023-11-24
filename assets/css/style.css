@@ -2504,3 +2504,97 @@ section {
   padding: 4px 18px;
   border-radius: 6px;
 }
+/*! ********   Journal books -   ********** */
+/*--------------------------------------------------------------
+#  Journal books 
+--------------------------------------------------------------*/
+#journalsBooks .journalsBooks-items {
+  padding: 25px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border-radius: 5px;
+}
+#journalsBooks .journalsBooks-items .journalsBooks-content h4 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 6px;
+  color: var(--text-title-color);
+}
+#journalsBooks .journalsBooks-items .journalsBooks-content h4 a {
+  color: var(--text-title-color);
+}
+#journalsBooks .journalsBooks-items .journalsBooks-content h4 a:hover {
+  color: var(--color-primary);
+}
+#journalsBooks .journalsBooks-items .journalsBooks-date {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#journalsBooks .journalsBooks-items .journalsBooks-date p {
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: normal;
+}
+#journalsBooks .journalsBooks-items .journalsBooks-part {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: gray;
+}
+#journalsBooks .journalsBooks-items .journalsBooks-part span {
+  font-size: 14px;
+  font-weight: normal;
+}
+#journalsBooks .journalsBooks-border {
+  padding-bottom: 15px;
+  border-bottom: 1px dotted gray;
+}
+#journalsBooks .journalsBooks-items .journalsBooks-view {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding-top: 15px;
+}
+#journalsBooks .journalsBooks-items .journalsBooks-view a {
+  color: var(--color-primary);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+#journalsBooks .journalsBooks-icons {
+  width: 30px;
+  height: 30px;
+  background: #00a22136;
+  color: var(--color-primary);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#journalsBooks .journalsBooks-icons i {
+  font-size: 17px;
+  color: var(--primary-color);
+}
+#journalsBooks .journalsBooks-view .view-btn {
+  background: #e84545;
+  color: #fff !important;
+  font-family: var(--Bangla-font);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 18px;
+  border-radius: 6px;
+}
+#journalsBooks .journalsBooks-view .dw-btn {
+  background: var(--primary-color);
+  color: #fff !important;
+  font-family: var(--Bangla-font);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 18px;
+  border-radius: 6px;
+}
