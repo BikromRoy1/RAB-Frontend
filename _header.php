@@ -114,7 +114,7 @@
             </a>
             <ul>
               <li><a href="Photogallery.php">ফটো গ্যালারি </a></li>
-              <li><a href="#">ভিডিও গ্যালারি</a></li>
+              <li><a href="videosGallery.php">ভিডিও গ্যালারি</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -126,7 +126,7 @@
               </span>
             </a>
             <ul>
-              <li><a href="#">সাম্প্রতিক টেন্ডার</a></li>
+              <li><a href="tender.php">সাম্প্রতিক টেন্ডার</a></li>
               <li><a href="#">আর্কাইভ টেন্ডার</a></li>
             </ul>
           </li>

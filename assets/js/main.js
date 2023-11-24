@@ -181,6 +181,13 @@
   }
 
   /**
+   * Initiate glightbox
+   */
+  const glightbox = GLightbox({
+    selector: '.glightbox',
+  });
+
+  /**
    * Clients Slider
    */
   new Swiper('.Units-slider', {
