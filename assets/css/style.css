@@ -1145,7 +1145,7 @@ section {
 .goverment-service-card {
   border: none;
   border-radius: 5px;
-  background: #374151;
+  background: #2d333e;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
   transition: all 500ms ease;
@@ -1155,7 +1155,7 @@ section {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 4px;
-  background-color: #374151;
+  background-color: #2d333e;
   box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 5%);
   border-radius: 7px;
 }
@@ -2092,7 +2092,7 @@ section {
   transition: all 0.4s ease;
   align-items: center;
   gap: 20px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid #e4e4e7;
 }
 
 .important-link-card:hover {
@@ -2201,22 +2201,62 @@ section {
 /*--------------------------------------------------------------
 # Footers
 --------------------------------------------------------------*/
-#footer {
-  /* background-color: #081828; */
+/* #footer {
+  background-color: #081828;
   border-top: 2px solid #1bbd36;
   padding-top: 50px;
   padding-bottom: 25px;
   color: rgba(255, 255, 255, 0.7);
-  background: url('https://i.ibb.co/G3vm9yt/dhaka-bangladesh-12th-apr-2019-members-of-elite-force-rapid-action-battalion-rab-are-seen-at-a-new-y.jpg') top center no-repeat;
+} */
+/* #footer {
+  background-color: #081828;
+  border-top: 2px solid #1bbd36;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  color: rgba(255, 255, 255, 0.7);
+  background: url('https://i.ibb.co/dbVvjCQ/bottom-bg-hight.jpg') top center no-repeat;
   background-size: cover;
   position: relative;
-}
-.footer:before {
+} */
+/* .footer:before {
   content: '';
-  background: rgba(0, 0, 0, 0.8);
   position: absolute;
-  inset: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+} */
+.footer {
+  background: url(https://i.ibb.co/4TqQhTP/Screenshot-22.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 25px;
+  padding-top: 40px;
 }
+.footer:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  /* background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.86) 0%,
+    rgba(1, 54, 47, 0.95) 97%
+  ); */
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.86) 0%,
+    rgba(1, 54, 47, 0.95) 97%
+  );
+  z-index: -1;
+}
+
 .footer .icon {
   margin-right: 15px;
   font-size: 24px;
@@ -2408,7 +2448,7 @@ section {
   transition: all 0.4s ease;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--primary-color);
+  border: 1px solid #e4e4e7;
   cursor: pointer;
 }
 #battalions .battalions-name a {
@@ -2765,5 +2805,47 @@ section {
   background: var(--main-button-hover-color);
 }
 .change-my-color {
-  fill: green;
+    stroke: #6b7280;
+}
+
+/* Nav Search  BAr */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 170px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #818894;
+}
+.nav-form-control {
+  display: inline-block;
+  width: 100%;
+  height: 2.2rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  line-height: 1.25;
+  color: #343434;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ececec;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: 0 !important;
+  box-shadow: none !important;
+  /* cursor: pointer; */
+}
+.nav-form-control:focus {
+  border-color: var(--color-primary);
+}
+.btn-transparent-home {
+  background-color: transparent;
+  padding: 0 !important;
+  border: 0 transparent;
 }

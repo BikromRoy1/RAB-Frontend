@@ -16,7 +16,7 @@
           </div>
         </div>
 
-          <div class="col-lg-4 col-md-6 footer-links text-center">
+          <div class="col-lg-5 col-md-6 footer-links text-center">
           <div class='footer-logo'>
             <img src="assets/img/Main-logo.png" class='img-fluid ' loading='lazy' alt="RAB logo">
           </div>

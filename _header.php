@@ -83,7 +83,7 @@
           <li class="dropdown">
             <a href="#"><span>
                 অর্জন
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0 change-my-color " height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
               </span>
@@ -107,7 +107,7 @@
           <li class="dropdown">
             <a href="#"><span>
                 গ্যালারি
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0 change-my-color " height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
               </span>
@@ -120,7 +120,7 @@
           <li class="dropdown">
             <a href="#"><span>
                 টেন্ডার
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0 change-my-color " height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg>
               </span>
@@ -144,7 +144,7 @@
           <li class="dropdown">
             <a href="#"><span>
                 যোগাযোগ
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0 change-my-color " height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg> </span></a>
             <ul>
@@ -156,7 +156,7 @@
           <li class="dropdown">
             <a href="#"><span>
                 অন্যান্য
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0 change-my-color " height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg> </span></a>
             <ul>
@@ -169,7 +169,18 @@
       </nav>
       <!-- .navbar -->
       <div class='d-flex'>
-        <a  href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="mx-2 js-search-open search-btn">Search<span class="bi-search"></span></a>
+ <form action="#" data-bs-toggle="modal" data-bs-target="#exampleModal" method="get" class="form-inline my-2 my-lg-0 navbar-search position-relative">
+      <input  class="form-control mr-5 rounded nav-form-control user-select-none" type="text" name="search" placeholder="Search..."  aria-label="Search">
+
+      <button type="submit" class="btn-transparent-home d-flex align-items-center justify-content-center search-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-search mr-10">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+    </form>
        <div>
          <button class="language-btn" href="#">
           <svg class="hidden md:block" width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
