@@ -15,7 +15,7 @@ include '_header.php'
             <div class="row">
                 <div class="col-md-12">
                     <div class="banner-text">
-                        <h1>ডিজি  পদক</h1>
+                        <h1>পুলিশ পদক</h1>
                     </div>
                 </div>
             </div>

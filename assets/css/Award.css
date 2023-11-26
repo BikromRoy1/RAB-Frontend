@@ -7,7 +7,7 @@
 .award .nav-link {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 25px 10px 25px;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -17,10 +17,22 @@
   margin: 0 4px 10px 4px;
   background: whitesmoke;
   border-radius: 4px;
+  text-align: center;
+}
+.award .nav-link h4 {
+  color: #1f1e1e;
+  font-family: var(--Bangla-font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
 }
 .award .nav-link.active {
   background: var(--primary-color);
-  color: #fff;
+  color: #fff !important;
+}
+.award .nav-link.active h4 {
+  color: #fff !important;
 }
 .award .award-card {
   background: #ffffff;

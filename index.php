@@ -22,7 +22,7 @@ include '_header.php';
         <div class="row">
           <div class="col-12">
             <div class="hero-main-title">
-              <img loading="lazy" src="assets/img/Main-logo.png" alt="Bangladesh police" />
+              <!-- <img loading="lazy" src="assets/img/Main-logo.png" alt="Bangladesh police" /> -->
               <p>
                 আপনাকে স্বাগতম <br />
                 র‌্যাপিড এ্যাকশন ব্যাটালিয়ন (র‌্যাব)
@@ -85,7 +85,7 @@ include '_header.php';
               <h2>
                 <span>আমাদের জানুন</span>
               </h2>
-              <p>র‌্যাপিড এ্যাকশন ব্যাটালিয়ন (র‌্যাব)</p>
+              <p class='text-white'>র‌্যাপিড এ্যাকশন ব্যাটালিয়ন (র‌্যাব)</p>
               <div class="title-shape"></div>
             </div>
           </div>
@@ -143,7 +143,7 @@ include '_header.php';
               <h2>
                 <span>কার্যক্রম </span>
               </h2>
-              <p>র‌্যাব কার্যক্রম</p>
+              <p class='text-white'>র‌্যাব কার্যক্রম</p>
               <div class="title-shape"></div>
             </div>
           </div>
@@ -235,7 +235,7 @@ include '_header.php';
               <h2>
                 <span>(APA)</span>
               </h2>
-              <p>বার্ষিক কর্মসম্পাদন চুক্তি(APA)</p>
+              <p class='text-white'>বার্ষিক কর্মসম্পাদন চুক্তি(APA)</p>
               <div class="title-shape"></div>
             </div>
           </div>
@@ -250,6 +250,42 @@ include '_header.php';
       <div id="goverment-service" class="goverment-service">
         <div class="container" data-aos="fade-up">
           <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="card goverment-service-card mb-3 ">
+                <div class="goverment-service-card-single">
+                  <div class="row g-0 justify-content-center align-items-center">
+                    <div class="col-md-4">
+                      <img src="assets/img/portfolio/About-subject.png" loading="lazy"
+                        class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body goverment-service-card-body">
+                        <h5 class="card-title">
+                          আমাদের বিষয়
+                        </h5>
+                        <div class="card-title-shape"></div>
+                        <ul>
+                          <li>
+                            <a href="#"><i class="bi bi-check-all"></i> ইতিহাস ও কার্যাবলি </a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="bi bi-check-all"></i> ভিশন ও মিশন </a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="bi bi-check-all"></i>
+                             কর্মকর্তা/কর্মচারী</a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="bi bi-check-all"></i>
+                              সকল ফোকাল পয়েন্ট</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div class="card goverment-service-card mb-3 ">
                 <div class="goverment-service-card-single">
@@ -455,6 +491,39 @@ include '_header.php';
                           </li>
                           <li>
                             <a href="#"><i class="bi bi-check-all"></i> উদ্ভাবনী উদ্যোগ/ধারণা/পাইলটিং/বাস্তবায়ন</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="card mb-3 goverment-service-card">
+                <div class="goverment-service-card-single">
+                  <div class="row g-0 justify-content-center align-items-center">
+                    <div class="col-md-4">
+                      <img src="assets/img/portfolio/POLICY_PUBLICATION-New (1).png" loading="lazy"
+                        class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body goverment-service-card-body">
+                        <h5 class="card-title">আইন ও নীতিমালা</h5>
+                        <div class="card-title-shape"></div>
+                        <ul>
+                          <li>
+                            <a href="#"><i class="bi bi-check-all"></i> আইন ও বিধি 
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="bi bi-check-all"></i> নীতিমালা</a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="bi bi-check-all"></i> নির্দেশিকা ও কৌশলপত্র </a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="bi bi-check-all"></i> খসড়া আইন, বিধি এবং নীতিমালা </a>
                           </li>
                         </ul>
                       </div>
@@ -674,7 +743,7 @@ include '_header.php';
                 <h2>
                   <span>র‌্যাব ব্যাটালিয়ন সমূহের তথ্য</span>
                 </h2>
-                <p class=''>র‌্যাব ব্যাটালিয়ন সমূহ</p>
+                <p class='text-white'>র‌্যাব ব্যাটালিয়ন সমূহ</p>
                 <div class="title-shape"></div>
               </div>
             </div>
@@ -865,7 +934,7 @@ include '_header.php';
               <h2>
                 <span>ওয়েবসাইট লিঙ্ক</span>
               </h2>
-              <p class="">গুরুত্বপূর্ণ লিঙ্ক</p>
+              <p class="text-white">গুরুত্বপূর্ণ লিঙ্ক</p>
               <div class="title-shape"></div>
             </div>
           </div>

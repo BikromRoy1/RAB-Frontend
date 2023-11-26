@@ -34,7 +34,7 @@
           <li class="dropdown">
             <a href="#"><span>
                 সংস্থা সম্পর্কিত
-                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="mt-0 change-my-color" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg> </span></a>
             <ul>
@@ -91,11 +91,11 @@
             <ul>
               <li><a href="achievement.php">অর্জন</a></li>
               <li class="dropdown">
-                <a href="Award.php"><span>সম্মাননা</span>
+                <a href="#"><span>সম্মাননা</span>
                   <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">ডিজি  পদক</a></li>
-                  <li><a href="#">পুলিশ পদক</a></li>
+                  <li><a href="Award.php">ডিজি  পদক</a></li>
+                  <li><a href="policeAward.php">পুলিশ পদক</a></li>
                 </ul>
               </li>
             </ul>
@@ -168,8 +168,10 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
       <!-- .navbar -->
-      <div>
-        <button class="language-btn" href="#">
+      <div class='d-flex'>
+        <a  href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="mx-2 js-search-open search-btn">Search<span class="bi-search"></span></a>
+       <div>
+         <button class="language-btn" href="#">
           <svg class="hidden md:block" width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_9494_69309)">
               <path d="M8.4129 12.71C8.34261 12.8852 8.17283 13 7.98407 13C7.65462 13 7.43101 12.6651 7.5573 12.3608L10.0079 6.45676C10.1226 6.18024 10.3926 6 10.692 6C10.9914 6 11.2613 6.18024 11.3761 6.45676L13.8267 12.3608C13.953 12.6651 13.7294 13 13.3999 13C13.2112 13 13.0414 12.8852 12.9711 12.71L10.7344 7.13611C10.7275 7.11878 10.7107 7.10742 10.692 7.10742C10.6733 7.10742 10.6565 7.11878 10.6496 7.13611L8.4129 12.71ZM8.66745 10.6416C8.66745 10.434 8.83578 10.2656 9.04342 10.2656H12.3406C12.5482 10.2656 12.7165 10.434 12.7165 10.6416C12.7165 10.8492 12.5482 11.0176 12.3406 11.0176H9.04342C8.83578 11.0176 8.66745 10.8492 8.66745 10.6416Z" fill="#6B7280"></path>
@@ -183,6 +185,8 @@
           </svg>
           <span>বাং</span>
         </button>
+       </div>
+       
       </div>
     </div>
   </header>
@@ -191,21 +195,6 @@
   <!-- ======= sidebar  sticky icons Menu ======= -->
   <div id="right-fixed-icons" class="right-fixed-icons">
     <ul>
-      <!-- services icons -->
-      <li>
-        <a href="#">
-          <i class="bx bxs-donate-heart"></i> <span>Services</span></a>
-      </li>
-      <!-- Information icons -->
-      <li>
-        <a href="#">
-          <i class="bx bxs-folder"></i> <span>Information</span></a>
-      </li>
-      <!-- Mobile aps icons -->
-      <li>
-        <a href="#">
-          <i class="bi bi-google-play"></i> <span>Police Apps</span></a>
-      </li>
       <!-- Facebook icons -->
       <li>
         <a href="#">
@@ -219,6 +208,49 @@
       <li>
         <a href="#"> <i class="bi bi-twitter"></i> <span>twitter</span></a>
       </li>
+      <li>
+        <a href="#"> <i class="bi bi-instagram"></i> <span>instagram</span></a>
+      </li>
     </ul>
   </div>
   <!-- End sidebar  sticky icons Menu -->
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered  modal-lg">
+    <div class="modal-content modal-sr">
+      <div class="modal-body modal-bd">
+
+      <div>
+ <form action="" id="search-form">
+  
+      <input
+        type="text"
+        name=""
+        id="search-box"
+        placeholder="Type to start your seach..."
+      />
+       <button type="submit" class="submit ser-button"><i class="bi-search"></i></button>
+    </form>
+      </div>
+
+      <!-- <div class='ser-contnent'>
+          <ul>
+            <li>পাবনা জেলার সন্ত্রাসী সোহাগ চাঁপাইনবাবগঞ্জের সীমান্তবর্তী এলাকা থেকে অস্ত্র সংগ্রহ করে যাওয়ার </li>
+            <li>ঢাকা জেলার সাভার মডেল থানাধীন বলিয়ারপুর এলাকা হতে ২২৫ গ্রাম হেরোইনসহ ০৪ জন</li>
+            <li>নওগাঁ জেলার ধামইরহাট উপজেলায় নাশকতা সৃষ্টি সংক্রান্ত মামলার এজাহার নামীয় আসামী</li>
+            <li>বিশেষ কায়দায় তৈরীকৃত জ্যাকেটের মধ্যে অভিনব কায়দায় মাদক সরবরাহকালে ৫০ বোতল</li>
+            <li>রাজধানীর মোহাম্মদপুর ও শেরেবাংল নগর এলাকায় যানবাহনে অগ্নিসংযোগ, ভাংচুর ও নাশকতার মামলায় ০৩ জন নাশকতাকারীকে ডিএমপি, ঢাকা, মোহাম্মদপুর ও আদাবর হতে</li>
+            <li>নিষিদ্ধ ঘোষিত জঙ্গি সংগঠন "আনসার আল ইসলাম" এর ০২ জন সক্রিয় সদস্যকে মাগুরা সদর এলাকা হতে গ্রেফতার করেছে র‌্যাব-৬</li>
+          </ul>
+
+      </div> -->
+     
+      </div>
+    </div>
+  </div>
+</div>

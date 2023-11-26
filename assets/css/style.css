@@ -294,7 +294,14 @@ p {
   color: #fff;
   text-decoration: underline;
 }
-
+#topbar .social-links {
+  display: flex;
+  justify-content: center;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+}
 #topbar .social-links a {
   color: rgba(255, 255, 255, 0.7);
   line-height: 0;
@@ -363,6 +370,7 @@ p {
   border-radius: 0.25rem;
   cursor: pointer;
   font-weight: 500;
+  padding: 5px 11px;
 }
 
 /*--------------------------------------------------------------
@@ -371,7 +379,7 @@ p {
 .right-fixed-icons {
   width: 300px;
   position: fixed;
-  top: 210px;
+  top: 240px;
   z-index: 9999;
   right: -245px;
   padding: 0px;
@@ -391,12 +399,13 @@ p {
   /* background-color: #272727a5; */
   /* background: linear-gradient(to right, #021b79,#0575e6); */
   /* background: linear-gradient(-45deg, #131b43, #242c54, #243ec4); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     #0575e6 0%,
     #021b79 51%,
     #0575e6 100%
-  );
+  ); */
+  background: var(--primary-color);
   background-position: right center !important;
   color: white;
   height: 50px;
@@ -531,7 +540,7 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  background-color: rgba(19, 27, 67, 0.98);
+  background-color: #081828;
   color: white;
 }
 
@@ -1030,6 +1039,7 @@ section {
 --------------------------------------------------------------*/
 #activities {
   padding-bottom: 0;
+  background: #172136;
 }
 
 #activities .Activities-card {
@@ -1042,7 +1052,7 @@ section {
 }
 
 #activities .Activities-card-single {
-  background-color: white;
+  background-color: #1a1a1a;
   box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 5%);
 }
 
@@ -1123,7 +1133,7 @@ section {
 }
 
 #goverment-service {
-  background-image: url('../img/shape-7.png');
+  /* background-image: url('../img/shape-7.png'); */
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -1134,10 +1144,8 @@ section {
 
 .goverment-service-card {
   border: none;
-  padding: 8px 8px;
   border-radius: 5px;
-  border: 1px solid #e0e0ea;
-  background: #f6f6f6;
+  background: #374151;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
   transition: all 500ms ease;
@@ -1147,8 +1155,9 @@ section {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 4px;
-  background-color: white;
+  background-color: #374151;
   box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 5%);
+  border-radius: 7px;
 }
 
 .goverment-service .goverment-service-card .goverment-service-card-body {
@@ -1180,7 +1189,7 @@ section {
 .goverment-service .goverment-service-card .goverment-service-card-body h5 {
   font-size: 20px;
   line-height: 25px;
-  color: #252638;
+  color: #fff;
   font-weight: 700;
   padding-bottom: 5px;
 }
@@ -1204,7 +1213,7 @@ section {
   ul
   li
   a {
-  color: var(--text-secondary-color);
+  color: #9ca3af;
 }
 
 .goverment-service
@@ -1707,6 +1716,9 @@ section {
 /*--------------------------------------------------------------
 # Mission and Vision
 --------------------------------------------------------------*/
+#mission {
+  background: #334155;
+}
 #mission .mission-image-left img {
   border-radius: 10px;
 }
@@ -1731,7 +1743,7 @@ section {
 #mission .mission-image-left-content h4 {
   font-weight: 600;
   padding-top: 20px;
-  color: #131b43;
+  color: #fff;
   padding-bottom: 22px;
   font-size: 24px;
   position: relative;
@@ -1762,7 +1774,7 @@ section {
   font-size: 26px;
   line-height: 30px;
   font-weight: 700;
-  color: #252638;
+  color: #fff;
   padding-bottom: 11px;
   margin-bottom: 20px;
 }
@@ -1789,7 +1801,7 @@ section {
 
 #mission .Mission-vis-conent .mission-content p {
   font-weight: 600;
-  color: #616373;
+  color: #9ca3af;
   padding-bottom: 22px;
   font-size: 19px;
   text-align: justify;
@@ -1806,7 +1818,7 @@ section {
   margin-bottom: 6px;
   font-weight: 500;
   padding-left: 25px;
-  color: var(--text-secondary-color);
+  color: #9ca3af;
   position: relative;
 }
 
@@ -1820,8 +1832,27 @@ section {
 /*--------------------------------------------------------------
 # Police Activities
 --------------------------------------------------------------*/
+/* #police-activities {
+  background: #334155;
+} */
+
 #police-activities {
-  background: #f4f7fa;
+  /* background: #f4f7fa; */
+  background: url('https://i.ibb.co/JQtYqBn/RAB-falls-victim-of-fresh-propaganda-by-agents-of-militancy-1.jpg')
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+#police-activities::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .section-subtext {
@@ -1833,8 +1864,8 @@ section {
 }
 
 #police-activities .police-activities-card {
-  border: 1px solid #eee;
-  background-color: #fff;
+  /* border: 1px solid #121220; */
+  background-color: #34373a;
   border-radius: 10px;
   padding: 35px 30px;
   text-align: left;
@@ -1842,6 +1873,7 @@ section {
   transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
+  color: #fff;
 }
 
 #police-activities .police-activities-card:hover {
@@ -1852,10 +1884,9 @@ section {
 #police-activities .police-activities-card .police-activities-card-head {
   position: relative;
 }
-
 #police-activities .police-activities-card .police-activities-card-head {
   position: relative;
-  border-bottom: 1px solid #f2edee;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 #police-activities
@@ -1863,7 +1894,7 @@ section {
   .police-activities-card-head::before {
   position: absolute;
   content: '';
-  background: #ede4e5;
+  background: var(--primary-color);
   width: 15px;
   height: 15px;
   right: 0px;
@@ -1874,7 +1905,7 @@ section {
 #police-activities .police-activities-card .police-activities-card-head h4 {
   font-size: 21px;
   line-height: 26px;
-  color: #081828;
+  color: #fff;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 19px;
@@ -1891,11 +1922,11 @@ section {
 }
 
 #police-activities .police-activities-card-content ul li {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 12px;
   padding-left: 25px;
   font-weight: 500;
-  color: #081828;
+  color: #9ca3af;
   position: relative;
 }
 
@@ -1981,8 +2012,15 @@ section {
 # Units section css
 --------------------------------------------------------------*/
 #units {
-  background: linear-gradient(45deg, #4caf50, #101056);
+  /* background: linear-gradient(45deg, #4caf50, #101056); */
   position: relative;
+  /* background: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+  background: linear-gradient(
+    109.6deg,
+    rgb(15, 23, 42) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
   z-index: 1;
 }
 
@@ -2040,9 +2078,12 @@ section {
 /*--------------------------------------------------------------
 # Important Links css
 --------------------------------------------------------------*/
+#important-link {
+  background: #111827;
+}
 .important-link-card {
   padding: 20px 15px 20px 20px;
-  background: #ffffff;
+  background: #252637;
   border-radius: 5px;
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
   margin-bottom: 14px;
@@ -2051,7 +2092,7 @@ section {
   transition: all 0.4s ease;
   align-items: center;
   gap: 20px;
-  border: 1px dashed var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .important-link-card:hover {
@@ -2079,13 +2120,13 @@ section {
   font-size: 18px;
   line-height: 25px;
   font-weight: 700;
-  color: #252638;
+  color: #fff;
   margin-bottom: 1px;
 }
 
 .import-link-content p {
   margin-bottom: 0;
-  color: #696b7e;
+  color: #9ca3af;
   font-weight: 500;
   font-size: 15px;
 }
@@ -2161,19 +2202,30 @@ section {
 # Footers
 --------------------------------------------------------------*/
 #footer {
-  background-color: #081828;
+  /* background-color: #081828; */
+  border-top: 2px solid #1bbd36;
   padding-top: 50px;
   padding-bottom: 25px;
   color: rgba(255, 255, 255, 0.7);
+  background: url('https://i.ibb.co/G3vm9yt/dhaka-bangladesh-12th-apr-2019-members-of-elite-force-rapid-action-battalion-rab-are-seen-at-a-new-y.jpg') top center no-repeat;
+  background-size: cover;
+  position: relative;
 }
-
+.footer:before {
+  content: '';
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  inset: 0;
+}
 .footer .icon {
   margin-right: 15px;
   font-size: 24px;
   line-height: 0;
   color: var(--primary-color);
 }
-
+.f-18 {
+  font-size: 18px !important;
+}
 .footer h4 {
   font-size: 22px;
   font-weight: 700;
@@ -2197,6 +2249,9 @@ section {
 
 .footer .footer-links {
   margin-bottom: 30px;
+}
+.mt-50 {
+  margin-top: 30px !important;
 }
 
 .footer .footer-links ul {
@@ -2266,6 +2321,13 @@ section {
 .footer .copyright a {
   color: var(--primary-color);
 }
+.footer .footer-logo {
+  text-align: center;
+}
+.footer .footer-logo img {
+  height: 170px;
+  margin-bottom: 15px;
+}
 
 /* News CSS */
 #message-ppm .about-message p {
@@ -2273,7 +2335,7 @@ section {
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.20000000298023224px;
-  color: var(--text-secondary-color);
+  color: #9ca3af;
 }
 
 /* Global Button */
@@ -2294,6 +2356,10 @@ section {
   background: var(--main-button-hover-color);
 }
 
+#message-ppm {
+  background: #172136;
+}
+
 #message-ppm .message-dmt {
   padding: 15px 15px 8px;
   border-radius: 6px;
@@ -2310,7 +2376,7 @@ section {
 }
 
 #message-ppm .message-dmt h4 {
-  color: var(--text-primary-color);
+  color: #fff;
   font-size: 20px;
   font-weight: 600;
   line-height: 26px;
@@ -2319,18 +2385,22 @@ section {
 }
 
 #message-ppm .message-dmt p {
-  color: var(--text-secondary-color);
+  color: #9ca3af;
   margin-bottom: 2px;
 }
 
 /* র‌্যাব ব্যাটালিয়ন সমূহ */
+#battalions {
+  background: #111827;
+}
+
 #battalions .battalions-button {
   padding-top: 10px;
 }
 #battalions .battalions-name {
   text-align: center;
   padding: 18px 15px 18px 15px;
-  background: #ffffff;
+  background: #252637;
   border-radius: 5px;
   box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
   margin-bottom: 14px;
@@ -2338,11 +2408,11 @@ section {
   transition: all 0.4s ease;
   align-items: center;
   justify-content: center;
-  border: 1px dashed var(--primary-color);
+  border: 1px solid var(--primary-color);
   cursor: pointer;
 }
 #battalions .battalions-name a {
-  color: var(--text-primary-color);
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
@@ -2597,4 +2667,103 @@ section {
   font-weight: 600;
   padding: 4px 18px;
   border-radius: 6px;
+}
+
+/* Search */
+.search-field {
+  background: linear-gradient(to right, #69fe82, #0e0218);
+  border: 0;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+#search-form {
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  /* background: #434989; */
+  display: flex;
+  align-items: center;
+  /* border-bottom: 2px solid #e5e7eb; */
+  /* border-radius: 25px; */
+}
+#search-form input {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #0e0218;
+  font-size: 17px;
+  border-radius: 25px;
+  padding: 15px 30px;
+}
+#search-form input::placeholder {
+  color: #0e0218;
+  font-size: 16px;
+}
+#search-form .ser-button {
+  padding: 0 20px;
+  height: 100%;
+  background: transparent;
+  color: #0e0218;
+  font-size: 18px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.modal-sr {
+  /* background: none !important; */
+  /* padding: 0 !important;
+  border: 0 !important; */
+  padding-top: 0px !important;
+}
+.Press {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.45;
+  color: #fff;
+  text-align: center;
+}
+.modal-bd {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  /* padding: 0px; */
+}
+.ser-contnent {
+  margin-top: 13px;
+}
+
+.ser-contnent ul {
+  margin: 0;
+  padding: 0;
+}
+.ser-contnent ul li {
+  list-style: none;
+  padding-left: 20px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.search-btn {
+  background: #1cab55;
+  color: #fff;
+  padding: 4px 14px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.search-btn span {
+  margin-left: 5px;
+}
+.search-btn:hover {
+  color: #fff;
+  background: var(--main-button-hover-color);
+}
+.change-my-color {
+  fill: green;
 }

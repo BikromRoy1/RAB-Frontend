@@ -28,6 +28,28 @@ include '_header.php'
 
     <section id='tender' class='tender'>
       <div class="container">
+         <!-- search form -->
+                <form action="" class="my-3">
+                    <div class="row justify-content-between">
+                        <div class="col-md-2">
+                            <div class="d-flex align-items-center gap-2">
+                                Show <select class="form-select" aria-label="Default select example">
+                                    <option value="10">10</option>
+                                    <option value="1">25</option>
+                                    <option value="2">50</option>
+                                    <option value="3">100</option>
+                                </select>
+                                records
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
           <div class="row">
             <div class="col-lg-12">
               <div class="table-responsive">
