@@ -31,4 +31,6 @@
   <link href="assets/css/style.css" rel="stylesheet" />
   <link href="assets/css/Award.css" rel="stylesheet" />
   <link href="assets/css/about_us.css" rel="stylesheet" />
+  <link href="assets/css/contact.css" rel="stylesheet" />
+  <link href="assets/css/report_crime.css" rel="stylesheet" />
 </head>

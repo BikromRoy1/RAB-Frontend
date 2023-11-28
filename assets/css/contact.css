@@ -1,0 +1,11 @@
+.contact-page select {
+  width: 100% !important;
+  padding: 10px;
+}
+.contact-address {
+  /*background: url(../img/bg-2.jpg)no-repeat bottom center / cover;*/
+}
+
+.contact-page {
+  background: #0f172a;
+}

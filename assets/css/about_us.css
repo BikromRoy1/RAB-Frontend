@@ -1,13 +1,15 @@
-
-#team .dg-image{
-    height: 300px !important;
-    width: 300px !important;
+#team .dg-image {
+  height: 300px !important;
+  width: 300px !important;
 }
-#team .additional-dg-image{
-    height: 250px !important;
-    width: 250px !important;
+#team .additional-dg-image {
+  height: 250px !important;
+  width: 250px !important;
 }
-#team .directors img{
-    height:200px!important;
-    width:200px!important;
+#team .directors img {
+  height: 200px !important;
+  width: 200px !important;
+}
+#team {
+  background: #0F172A;
 }

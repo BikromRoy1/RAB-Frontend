@@ -13,7 +13,7 @@ include '_header.php';
 
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
+  <!-- <section id="hero">
     <video autoplay muted loop id="bg-video">
       <source src="assets/img/main-vidoes.mp4" type="video/mp4" />
     </video>
@@ -22,7 +22,7 @@ include '_header.php';
         <div class="row">
           <div class="col-12">
             <div class="hero-main-title">
-              <!-- <img loading="lazy" src="assets/img/Main-logo.png" alt="Bangladesh police" /> -->
+              <img loading="lazy" src="assets/img/Main-logo.png" alt="Bangladesh police" />
               <p>
                 আপনাকে স্বাগতম <br />
                 র‌্যাপিড এ্যাকশন ব্যাটালিয়ন (র‌্যাব)
@@ -36,6 +36,46 @@ include '_header.php';
           </div>
         </div>
       </div>
+    </div>
+  </section> -->
+  <!-- End Hero -->
+
+    <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/achievement/RAB01.png)">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>
+                আপনাকে স্বাগতম,
+                <span>র‌্যাপিড এ্যাকশন ব্যাটালিয়ন (র‌্যাব)।</span>
+              </h2>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/achievement/RAB02.jpeg)">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>জনগণের আস্থা অর্জন করুন, প্রধানমন্ত্রী র‌্যাপিড এ্যাকশন ব্যাটালিয়ন (র‌্যাব) কে বলেছেন।</h2>
+            </div>
+          </div>
+        </div>
+
+       
+      </div>
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
     </div>
   </section>
   <!-- End Hero -->

@@ -154,7 +154,7 @@ include '_head.php';
                                                 রাজধানীর মোহাম্মদপুর এলাকায় যানবাহনে অগ্নিসংযোগ, ভাংচুর ও নাশকতার মূলহোতা বিএনপি চেয়ারপার্সনের উপদেষ্টা আতাউর রহমান ঢালী’কে ডিএমপির বসিলা এলাকা হতে গ্রেফতার করেছে র‌্যাব-২।
                                             </h4>
                                             <p class="card-text">
-                                                এরই ধারাবাহিকতায়, রাজধানীর মোহাম্মদপুর এলাকায় যানবাহনে অগ্নিসংযোগ, ভাংচুর ও নাশকতার মূলহোতা বিএনপি চেয়ারপারসন এর উপদেষ্টা আতাউর রহমান ঢালী (৭১), পিতা- পিতাঃ আফলাতুন ঢালী, থানা-মোহাম্মদপুর, ঢাকা’কে ডিএমপি ঢাকার মোহাম্মদপুর থানাধীন বসিলা, গার্ডেন সিটি এলাকা হতে অদ্য ২১ নভেম্বর ২০২৩ইং তারিখ দুপুর ১৩.৫০ ঘটিকায় গ্রেফতার করেছে র‌্যাব-২।
+                                                এরই ধারাবাহিকতায়, রাজধানীর মোহাম্মদপুর এলাকায় যানবাহনে অগ্নিসংযোগ, ভাংচুর ও নাশকতার মূলহোতা বিএনপি চেয়ারপারসন এর উপদেষ্টা আতাউর রহমান ঢালী (৭১), পিতা- পিতাঃ আফলাতুন ঢালী, থানা-মোহাম্মদপুর, ঢাকা’কে ডিএমপি ঢাকার মোহাম্মদপুর থানাধীন বসিলা, গার্ডেন সিটি এলাকা হতে অদ্য ২১ নভেম্বর ২০২৩ইং তারিখ ।
                                                 <a href="" class="border-bottom">বিস্তারিত...</a>
                                             </p>
                                             <p class="card-text"><small class="text-body-secondary fw-bold">
@@ -244,7 +244,7 @@ include '_head.php';
                 <div class="row">
                     <!-- single news start -->
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mb-4">
+                        <div class="card mb-4 Vertical-card">
                             <img src="assets/img/news/7.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">
@@ -269,7 +269,7 @@ include '_head.php';
                     <!-- single news end -->
                     <!-- single news start -->
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mb-4">
+                        <div class="card mb-4 Vertical-card">
                             <img src="assets/img/news/7.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">
@@ -294,7 +294,7 @@ include '_head.php';
                     <!-- single news end -->
                     <!-- single news start -->
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mb-4">
+                        <div class="card mb-4 Vertical-card">
                             <img src="assets/img/news/7.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">
@@ -321,7 +321,7 @@ include '_head.php';
 
                     <!-- single news start -->
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mb-4">
+                        <div class="card mb-4 Vertical-card">
                             <img src="assets/img/news/7.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">
@@ -339,23 +339,24 @@ include '_head.php';
                                     <div>
                                         <a href="#" class="btn btn-success">বিস্তারিত...</a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
+                                </div>            
+                            </div>                                            
+                        </div>                  
                     </div>
-                    <!-- single news end --> <!-- single news start -->
+                    <!-- single new                                                                  s end --> <!-- single news start -->
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mb-4">
+                        <div class="  card mb-4 Vertical-card                                                                                                    
+                                                           ">
                             <img src="assets/img/news/7.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">
-                                    র‌্যাবের অভিযানে রাজধানীর বিভিন্ন এলাকা থেকে বিদেশে চাকুরী ও ভিসা প্রতাণার দায়ে প্রতারক চক্রের ৬ সদস্য গ্রেফতার।
+                                <h5 class="card-title">                                                                   
+                                    র‌্যাবের অভিযানে রাজধানীর বিভিন্ন এলাকা থেকে                                  বিদেশে চাকুরী ও ভিসা প্রতাণার দায়ে প্রতারক চক্রের ৬ সদস্য গ্রেফতার।
                                 </h5>
                                 <p class="card-text">
                                     এলিট ফোর্স হিসেবে র‌্যাব আত্মপ্রকাশের সূচনালগ্ন থেকেই আইনের শাসন সমুন্নত রেখে দেশের সকল নাগরিক এর নিরাপত্তা সুনিশ্চিত করার লক্ষ্যে অপরাধ চিহ্নিতকরণ
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div>
+                                        <div>
                                         <p class="card-text"><small class="text-body-secondary fw-bold">
                                                 প্রকাশের তারিখ : ০৪-০৮-২০১৯
                                             </small></p>
@@ -370,7 +371,7 @@ include '_head.php';
                     <!-- single news end -->
                       <!-- single news start -->
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="card mb-4">
+                        <div class="card mb-4 Vertical-card                                                          ">
                             <img src="assets/img/news/7.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">

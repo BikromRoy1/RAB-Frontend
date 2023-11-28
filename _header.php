@@ -135,7 +135,7 @@
           </li>
 
           <li>
-            <a class="nav-link scrollto" href="#services"> রিপোর্ট ক্রাইম </a>
+            <a class="nav-link scrollto" href="report_crime.php"> রিপোর্ট ক্রাইম </a>
           </li>
           <li>
             <a class="nav-link scrollto" href="publication.php"> প্রকাশনা </a>
@@ -148,7 +148,7 @@
                   <polyline points="6 9 12 15 18 9"></polyline>
                 </svg> </span></a>
             <ul>
-              <li><a href="#">যোগাযোগ </a></li>
+              <li><a href="contact.php">যোগাযোগ </a></li>
               <li><a href="#">ফোন ডিরেক্টরি</a></li>
             </ul>
           </li>
@@ -161,7 +161,7 @@
                 </svg> </span></a>
             <ul>
               <li><a href="#">ইনোভেশন</a></li>
-              <li><a href="#">এ পি এ </a></li>
+              <li><a href="APA.php">এ পি এ </a></li>
             </ul>
           </li>
         </ul>

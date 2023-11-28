@@ -32,7 +32,7 @@ include '_header.php'
          <div class="row ">
                                 <div class="col-12">
                                     <div class="section-title">
-                                        <p>ফটো অ্যালবাম</p>
+                                        <p class='text-white'>ফটো অ্যালবাম</p>
                                         <div class="title-shape"></div>
                                     </div>
                                 </div>

@@ -1,3 +1,7 @@
+.award{
+  background: #0f172a;
+}
+
 .award .nav-pills {
   /* border-bottom: 1px solid rgba(var(--primary-color-rgb), 0.2); */
 }
@@ -12,15 +16,15 @@
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0;
-  color: #555555;
+  color: #fff;
   transition: all 0.3s ease-in-out;
   margin: 0 4px 10px 4px;
-  background: whitesmoke;
+  background: #334155;
   border-radius: 4px;
   text-align: center;
 }
 .award .nav-link h4 {
-  color: #1f1e1e;
+  color: #fff;
   font-family: var(--Bangla-font);
   font-size: 18px;
   font-weight: 600;
@@ -35,8 +39,8 @@
   color: #fff !important;
 }
 .award .award-card {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
+  background: #1E293B;
+  border: 1px solid #1E293B;
   padding-bottom: 21px;
   padding-top: 21px;
   height: 100%;
@@ -63,6 +67,7 @@
   font-weight: 700;
   line-height: 24px;
   text-align: center;
+  color: #fff;
 }
 .award .award-card .award-card-content h5 {
   font-size: 17px;
@@ -72,7 +77,7 @@
 }
 .award .award-card .award-card-content p {
   margin-bottom: 0px;
-  color: var(--text-secondary-color);
+  color: #9ca3af;
   font-size: 15px;
   line-height: 1.25rem;
   font-weight: 500;

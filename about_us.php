@@ -35,7 +35,7 @@ include '_header.php';
                         <h2>
                             <span>আমাদের জানুন</span>
                         </h2>
-                        <p>র‌্যাপিড এ্যাকশন ব্যাটালিয়ন (র‌্যাব)</p>
+                        <p class='text-white'>র‌্যাপিড এ্যাকশন ব্যাটালিয়ন (র‌্যাব)</p>
                         <div class="title-shape"></div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ include '_header.php';
             <div class="row ">
                 <div class="col-12">
                     <div class="section-title">
-                        <p>মহাপরিচালক</p>
+                        <p class='text-white'>মহাপরিচালক</p>
                         <div class="title-shape"></div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ include '_header.php';
             <div class="row mt-5">
                 <div class="col-12">
                     <div class="section-title">
-                        <p>অতিরিক্ত মহাপরিচালকগণ</p>
+                        <p class='text-white'>অতিরিক্ত মহাপরিচালকগণ</p>
                         <div class="title-shape"></div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@ include '_header.php';
             <div class="row mt-5">
                 <div class="col-12">
                     <div class="section-title">
-                        <p>পরিচালকগণ</p>
+                        <p class='text-white'>পরিচালকগণ</p>
                         <div class="title-shape"></div>
                     </div>
                 </div>
@@ -221,7 +221,7 @@ include '_header.php';
             <div class="row mt-5">
                 <div class="col-12">
                     <div class="section-title">
-                        <p>অধিনায়কগণ</p>
+                        <p class='text-white'>অধিনায়কগণ</p>
                         <div class="title-shape"></div>
                     </div>
                 </div>
@@ -374,7 +374,7 @@ include '_header.php';
                         <h2>
                             <span>কার্যক্রম </span>
                         </h2>
-                        <p>র‌্যাব কার্যক্রম</p>
+                        <p class='text-white'>র‌্যাব কার্যক্রম</p>
                         <div class="title-shape"></div>
                     </div>
                 </div>
@@ -459,6 +459,187 @@ include '_header.php';
         </div>
     </section>
     <!-- End Police Activities Section -->
+
+     <!-- ======= Emergency services Section ======= -->
+    <section id='battalions' class='battalions'>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+              <div class="section-title">
+                <h2>
+                  <span>র‌্যাব ব্যাটালিয়ন সমূহের তথ্য</span>
+                </h2>
+                <p class='text-white'>র‌্যাব ব্যাটালিয়ন সমূহ</p>
+                <div class="title-shape"></div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="battalions-button">
+               <div class="row">
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ২</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৩</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৪</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৫</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৬</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৭</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৮</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ৯</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১০</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১১</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১২</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১৩</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১৪</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">র‌্যাব - ১৫</a>
+                  </div>
+                </div>
+              
+               
+               </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </section>
+    <!-- End Emergency services Section -->
+     <!-- ======= Emergency services Section ======= -->
+    <section id='battalions' class='battalions'>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+              <div class="section-title">
+                <p class='text-white'>র‌্যাব উইংসমূহ</p>
+                <div class="title-shape"></div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="battalions-button">
+               <div class="row">
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">অপারেশনস্ উইং</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">ইন্টেলিজেন্স উইং</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">এ্যাডমিন অ্যান্ড ফাইন্যান্স উইং</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">লিগ্যাল অ্যান্ড মিডিয়া উইং</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">কমিউনিকেশন অ্যান্ড এমআইএস </a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">ইনভেস্টিগেশন অ্যান্ড ফরেনসিক উইং</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">ট্রেনিং অ্যান্ড ওরিয়েন্টেশন উইং</a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="battalions-name">
+                    <a href="#">এয়ার উইং</a>
+                  </div>
+                </div>
+               
+               
+               
+             
+              
+               
+               </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </section>
+    <!-- End Emergency services Section -->
 
 
 </main>

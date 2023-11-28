@@ -54,7 +54,7 @@ include '_header.php'
             <div class="col-lg-12">
               <div class="table-responsive">
                 <table class="table table-bordered Projects-list-table">
-                  <thead class="table-dark">
+                  <thead class="table-dark-color">
                     <tr>
                       <th scope="col">ক্রমিক নং</th>
                       <th scope="col">নাম</th>

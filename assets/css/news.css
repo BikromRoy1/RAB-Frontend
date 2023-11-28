@@ -1,41 +1,59 @@
 #page-banner {
-    background: url('../img/bg-2.jpg')no-repeat fixed bottom center / cover;
-    position: relative;
-    z-index: 1;
+  background: url('../img/bg-2.jpg') no-repeat fixed bottom center / cover;
+  position: relative;
+  z-index: 1;
 }
 
 #page-banner::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #0818287a;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #0818287a;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-
 .banner-text {
-    text-align: center;
-    padding: 16px 0;
+  text-align: center;
+  padding: 16px 0;
 }
 
 .banner-text h1 {
-    color: white;
+  color: white;
 }
 
-.news-wrapper {  
-    background: #f1f5f9;
+.news-wrapper {
+  background: #0f172a;
 }
 
 .news-title img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 
 .news-title {
-    height: 250px;
-    overflow: hidden;
+  height: 250px;
+  overflow: hidden;
+  color: #fff;
+}
+.single-news .card {
+  background: #1e293b;
+}
+.single-news .card .card-title {
+  color: #fff;
+}
+.single-news .card .card-text {
+  color: #9ca3af;
+}
+.Vertical-card {
+  background: #1e293b;
+}
+.Vertical-card .card-title {
+  color: #fff;
+}
+.Vertical-card .card-text {
+  color: #9ca3af;
 }

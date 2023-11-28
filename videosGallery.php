@@ -32,7 +32,7 @@ include '_header.php'
          <div class="row ">
                                 <div class="col-12">
                                     <div class="section-title">
-                                        <p>ভিডিও গ্যালারি</p>
+                                        <p class='text-white'>ভিডিও গ্যালারি</p>
                                         <div class="title-shape"></div>
                                     </div>
                                 </div>
